@@ -45,11 +45,11 @@ struct const_key_info
   const unsigned code;
 };
 
-/* Translators: the following strings are letters that stand on mobile phone
- * keys.
- */
 static const struct const_key_info keys_info[] = {
   { "1", "  ", GDK_KEY_KP_1 }, /* whitespaces for a better alignment */
+  /* Translators: the following strings are letters that stand on mobile phone
+   * keys.
+   */
   { "2", N_("abc"), GDK_KEY_KP_2 },
   { "3", N_("def"), GDK_KEY_KP_3 },
   { "4", N_("ghi"), GDK_KEY_KP_4 },

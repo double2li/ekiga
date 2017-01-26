@@ -948,10 +948,10 @@ OPENLDAP::BookForm (boost::shared_ptr<Ekiga::FormRequestSimple> request,
   std::string callAttr = "";
   char *title = NULL;
 
-  /* Translators: This is Edit name of the LDAP Account
-   * e.g. Editing Ekiga.net Account.
-   */
   if (!info.name.empty ())
+    /* Translators: This is Edit name of the LDAP Account
+     * e.g. Editing Ekiga.net Account.
+     */
     title = g_strdup_printf (_("Editing %s Account"), info.name.c_str ());
   else
     title = g_strdup (_("Add Account"));
