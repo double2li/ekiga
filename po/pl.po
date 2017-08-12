@@ -1,18 +1,18 @@
 # Polish translation for ekiga.
-# Copyright © 2002-2016 the ekiga authors.
+# Copyright © 2002-2017 the ekiga authors.
 # This file is distributed under the same license as the ekiga package.
 # Zbigniew Chyla <chyla@alice.ci.pwr.wroc.pl>, 2002-2003.
 # Artur Flinta <aflinta@at.kernel.pl>, 2003-2006.
 # Tomasz Dominikowski <dominikowski@gmail.com>, 2007-2009.
-# Piotr Drąg <piotrdrag@gmail.com>, 2010-2016.
-# Aviary.pl <community-poland@mozilla.org>, 2007-2016.
+# Piotr Drąg <piotrdrag@gmail.com>, 2010-2017.
+# Aviary.pl <community-poland@mozilla.org>, 2007-2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ekiga\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-07 04:54+0200\n"
-"PO-Revision-Date: 2016-09-07 04:55+0200\n"
+"POT-Creation-Date: 2017-08-12 02:44+0200\n"
+"PO-Revision-Date: 2017-08-12 02:45+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -216,6 +216,9 @@ msgid "Processing..."
 msgstr "Przetwarzanie…"
 
 #. Translators: This is Edit name of the Account
+#. * e.g. Editing Ekiga.net Account.
+#.
+#. Translators: This is Edit name of the LDAP Account
 #. * e.g. Editing Ekiga.net Account.
 #.
 #: ../lib/engine/components/opal/opal-account.cpp:689
@@ -427,7 +430,7 @@ msgstr "Nie można się zarejestrować"
 
 #: ../lib/engine/components/opal/opal-account.cpp:1106
 msgid "Could not register to "
-msgstr "Nie można zarejestrować w "
+msgstr "Nie można zarejestrować w "
 
 #: ../lib/engine/components/opal/opal-account.cpp:1107
 #: ../plugins/loudmouth/loudmouth-account.cpp:442
@@ -1059,7 +1062,7 @@ msgstr ""
 "Do używania programu Ekiga wymagane jest konto SIP lub H.323.\n"
 "Wiele witryn umożliwia tworzenie takich kont.\n"
 "\n"
-"Polecamy użycie wolnego i darmowego konta ekiga.im, które umożliwia "
+"Polecamy użycie wolnego i bezpłatnego konta ekiga.im, które umożliwia "
 "połączenie z każdą osobą dysponującą kontem SIP.\n"
 "\n"
 "Aby dzwonić także na zwykłe linie telefoniczne, polecamy wykupienie "
@@ -1094,9 +1097,9 @@ msgid ""
 "would prefer to specify the login details later."
 msgstr ""
 "Nazwa użytkownika i hasło są używane do logowania do istniejącego konta "
-"w darmowej usłudze SIP ekiga.im. Jeśli użytkownik nie ma jeszcze adresu SIP "
-"w ekiga.im, może poniżej je utworzyć. Otrzyma w ten sposób adres SIP, który "
-"umożliwi innym osobom kontakt z użytkownikiem.\n"
+"w bezpłatnej usłudze SIP ekiga.im. Jeśli użytkownik nie ma jeszcze adresu "
+"SIP w ekiga.im, może poniżej je utworzyć. Otrzyma w ten sposób adres SIP, "
+"który umożliwi innym osobom kontakt z użytkownikiem.\n"
 "\n"
 "Można pominąć ten krok w wypadku korzystania z innego usługodawcy SIP lub "
 "jeśli dane do zalogowania mają być podane później."
@@ -1107,7 +1110,7 @@ msgstr "Załóż konto SIP w Ekiga.im"
 
 #: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:284
 msgid "I do not want to sign up for the ekiga.im free service"
-msgstr "Bez zapisywania się w darmowej usłudze ekiga.im"
+msgstr "Bez zapisywania się w bezpłatnej usłudze ekiga.im"
 
 #: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:354
 msgid "Ekiga Call Out Account"
@@ -1382,7 +1385,7 @@ msgstr "Nie dotyczy"
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:1146
 #, c-format
 msgid "%d ms"
-msgstr "%d ms"
+msgstr "%d ms"
 
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:1149
 #, c-format
@@ -1401,16 +1404,16 @@ msgid ""
 "\n"
 msgstr ""
 "<b><u>Odbiór:</u></b> %s %s\n"
-"Utracone pakiety: %d %%\n"
+"Utracone pakiety: %d%%\n"
 "Synchronizacja: %s\n"
-"Klatki na sekundę: %d FPS\n"
-"Przesyłane dane: %d kb/s\n"
+"Klatki na sekundę: %d FPS\n"
+"Przesyłane dane: %d kb/s\n"
 "\n"
 "<b><u>Wysyłanie:</u></b> %s %s\n"
-"Utracone zdalne pakiety: %d %%\n"
+"Utracone zdalne pakiety: %d%%\n"
 "Zdalna synchronizacja: %s\n"
-"Klatki na sekundę: %d FPS\n"
-"Przesyłane dane: %d kb/s\n"
+"Klatki na sekundę: %d FPS\n"
+"Przesyłane dane: %d kb/s\n"
 "\n"
 
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:1161
@@ -1567,7 +1570,7 @@ msgstr ""
 "GNU. Z pewnością wraz z niniejszym programem dostarczono także egzemplarz "
 "Powszechnej Licencji Publicznej GNU (GNU General Public License); jeśli nie "
 "— proszę napisać do Free Software Foundation, Inc., 51 Franklin Street, "
-"Fifth Floor, Boston, MA 02110-1301 USA."
+"Fifth Floor, Boston, MA 02110-1301, USA."
 
 #: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:845
 msgid ""
@@ -1593,8 +1596,8 @@ msgstr ""
 "Zbigniew Chyla <chyla@alice.ci.pwr.wroc.pl>, 2002-2003\n"
 "Artur Flinta <aflinta@at.kernel.pl>, 2003-2006\n"
 "Tomasz Dominikowski <dominikowski@gmail.com>, 2007-2009\n"
-"Piotr Drąg <piotrdrag@gmail.com>, 2010-2016\n"
-"Aviary.pl <community-poland@mozilla.org>, 2007-2016"
+"Piotr Drąg <piotrdrag@gmail.com>, 2010-2017\n"
+"Aviary.pl <community-poland@mozilla.org>, 2007-2017"
 
 #: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:862
 msgid ""
@@ -2223,15 +2226,15 @@ msgstr "G.722.1C"
 
 #: ../lib/engine/protocol/known-codecs.h:39
 msgid "Annex C, 14 kHz mode at 24 kbit/s"
-msgstr "Annex C, tryb 14 kHz przy 24 kb/s"
+msgstr "Annex C, tryb 14 kHz przy 24 kb/s"
 
 #: ../lib/engine/protocol/known-codecs.h:40
 msgid "Annex C, 14 kHz mode at 32 kbit/s"
-msgstr "Annex C, tryb 14 kHz przy 32 kb/s"
+msgstr "Annex C, tryb 14 kHz przy 32 kb/s"
 
 #: ../lib/engine/protocol/known-codecs.h:41
 msgid "Annex C, 14 kHz mode at 48 kbit/s"
-msgstr "Annex C, tryb 14 kHz przy 48 kb/s"
+msgstr "Annex C, tryb 14 kHz przy 48 kb/s"
 
 #: ../lib/engine/protocol/known-codecs.h:42
 msgid "Opus"
@@ -2239,7 +2242,7 @@ msgstr "Opus"
 
 #: ../lib/engine/protocol/known-codecs.h:42
 msgid "Opus codec, 48 kHz mode"
-msgstr "Opus, tryb 48 kHz"
+msgstr "Opus, tryb 48 kHz"
 
 #: ../lib/engine/protocol/known-codecs.h:43
 #: ../lib/engine/protocol/known-codecs.h:44
@@ -2248,11 +2251,11 @@ msgstr "iSAC"
 
 #: ../lib/engine/protocol/known-codecs.h:43
 msgid "internet Speech Audio Codec, 16 kHz mode"
-msgstr "iSAC, tryb 16 kHz"
+msgstr "iSAC, tryb 16 kHz"
 
 #: ../lib/engine/protocol/known-codecs.h:44
 msgid "internet Speech Audio Codec, 32 kHz mode"
-msgstr "iSAC, tryb 32 kHz"
+msgstr "iSAC, tryb 32 kHz"
 
 #: ../lib/engine/protocol/known-codecs.h:45
 msgid "G.722"
@@ -2269,11 +2272,11 @@ msgstr "G.722.1"
 
 #: ../lib/engine/protocol/known-codecs.h:46
 msgid "7 kHz mode at 24 kbits/s"
-msgstr "Tryb 7 kHz przy 24 kb/s"
+msgstr "Tryb 7 kHz przy 24 kb/s"
 
 #: ../lib/engine/protocol/known-codecs.h:47
 msgid "7 kHz mode at 32 kbits/s"
-msgstr "Tryb 7 kHz przy 32 kb/s"
+msgstr "Tryb 7 kHz przy 32 kb/s"
 
 #: ../lib/engine/protocol/known-codecs.h:48
 msgid "G.722.2"
@@ -2298,11 +2301,11 @@ msgstr "SILK"
 
 #: ../lib/engine/protocol/known-codecs.h:50
 msgid "Skype SILK 8 kbits/s"
-msgstr "Skype SILK przy 8 kb/s"
+msgstr "Skype SILK przy 8 kb/s"
 
 #: ../lib/engine/protocol/known-codecs.h:51
 msgid "Skype SILK 16 kbits/s"
-msgstr "Skype SILK przy 16 kb/s"
+msgstr "Skype SILK przy 16 kb/s"
 
 #: ../lib/engine/protocol/known-codecs.h:52
 msgid "G.711 A-Law"
@@ -2326,19 +2329,19 @@ msgstr "G.726"
 
 #: ../lib/engine/protocol/known-codecs.h:54
 msgid "G.726 at 16 kbits/s"
-msgstr "G.726 przy 16 kb/s"
+msgstr "G.726 przy 16 kb/s"
 
 #: ../lib/engine/protocol/known-codecs.h:55
 msgid "G.726 at 24 kbits/s"
-msgstr "G.726 przy 24 kb/s"
+msgstr "G.726 przy 24 kb/s"
 
 #: ../lib/engine/protocol/known-codecs.h:56
 msgid "G.726 at 32 kbits/s"
-msgstr "G.726 przy 32 kb/s"
+msgstr "G.726 przy 32 kb/s"
 
 #: ../lib/engine/protocol/known-codecs.h:57
 msgid "G.726 at 40 kbits/s"
-msgstr "G.726 przy 40 kb/s"
+msgstr "G.726 przy 40 kb/s"
 
 #: ../lib/engine/protocol/known-codecs.h:58
 msgid "IMA ADPCM"
@@ -2399,6 +2402,9 @@ msgid "New Video Input Device"
 msgstr "Nowe wejściowe urządzenie wideo"
 
 #. whitespaces for a better alignment
+#. Translators: the following strings are letters that stand on mobile phone
+#. * keys.
+#.
 #: ../lib/gui/dialpad.c:53
 msgid "abc"
 msgstr "abc"
@@ -2729,7 +2735,7 @@ msgid ""
 msgstr ""
 "Maksymalna gęstość bitowa obrazu wyrażana w kb/s. Użytkownik końcowy będzie "
 "o niej powiadomiony, aby mógł dopasować prędkość wysyłanych danych do "
-"podanej wartości (o ile obsługuje tę funkcję)"
+"podanej wartości (o ile obsługuje tę funkcję)"
 
 # td: http://www.packetizer.com/in/q63.html
 # Brak znanego polskiego odpowiednika
@@ -3589,17 +3595,17 @@ msgstr "Proszę wypełnić formularz, aby dodać nowy kontakt na zdalnym serwerz
 #: ../plugins/resource-list/rl-list.cpp:182
 #, c-format
 msgid "%s / List #%d"
-msgstr "%s/lista #%d"
+msgstr "%s/%d. lista"
 
 #. Translators: #%d - ordinal number
 #: ../plugins/resource-list/rl-list.cpp:187
 #, c-format
 msgid "List #%d"
-msgstr "Lista #%d"
+msgstr "%d. lista"
 
 #: ../plugins/resource-list/rl-presentity.cpp:229
 msgid "Edit remote contact"
-msgstr "Modyfikowanie kontaktu zdalnego"
+msgstr "Modyfikowanie zdalnego kontaktu"
 
 #: ../plugins/resource-list/rl-presentity.cpp:230
 msgid ""
