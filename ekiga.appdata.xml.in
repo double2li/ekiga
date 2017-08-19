@@ -5,8 +5,8 @@
   <id>ekiga.desktop</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0+</project_license>
-  <name>Ekiga Softphone</name>
-  <summary>Talk to and see people over the Internet</summary>
+  <_name>Ekiga Softphone</_name>
+  <_summary>Talk to and see people over the Internet</_summary>
   <description>
     <_p>
       Ekiga is a VoIP, IP Telephony, and Video Conferencing application
