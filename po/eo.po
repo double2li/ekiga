@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: eo\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=ekiga&"
 "keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-05-04 20:34+0000\n"
-"PO-Revision-Date: 2017-06-10 21:08+0200\n"
+"POT-Creation-Date: 2017-06-10 19:10+0000\n"
+"PO-Revision-Date: 2017-09-14 22:10+0200\n"
 "Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
 "Language-Team: Esperanto <gnome-eo-list@gnome.org>\n"
 "Language: eo\n"
@@ -111,7 +111,6 @@ msgstr "Venanta voko de %s"
 
 #: ../lib/engine/components/glib-notify/glib-notify-main.cpp:225
 #, c-format
-#| msgid "New Remote User"
 msgid "Remote URI: %s"
 msgstr ""
 
@@ -143,7 +142,6 @@ msgstr "Malregistrita"
 #. Translators: Example: Add ekiga.net Contact
 #: ../lib/engine/components/opal/opal-account.cpp:224
 #, c-format
-#| msgid "_Add a new contact"
 msgid "A_dd %s Contact"
 msgstr "_Aldoni kontakton %s"
 
@@ -232,7 +230,6 @@ msgstr "Traktado..."
 #: ../lib/engine/components/opal/opal-account.cpp:689
 #: ../plugins/ldap/ldap-book.cpp:955
 #, c-format
-#| msgid "Edit account"
 msgid "Editing %s Account"
 msgstr "Redakti konton %s"
 
@@ -273,7 +270,6 @@ msgstr ""
 #: ../lib/engine/components/opal/opal-bank.cpp:181
 #: ../lib/engine/components/opal/opal-bank.cpp:196
 #: ../lib/engine/components/opal/opal-bank.cpp:227
-#| msgid "Outbound Proxy"
 msgid "Outbound _Proxy"
 msgstr ""
 
@@ -288,7 +284,6 @@ msgstr ""
 
 #: ../lib/engine/components/opal/opal-account.cpp:711
 #: ../lib/engine/components/opal/opal-bank.cpp:191
-#| msgid "_Account ID:"
 msgid "_Account ID"
 msgstr "_Konto-ID"
 
@@ -311,7 +306,6 @@ msgstr ""
 #: ../plugins/evolution/evolution-book.cpp:345
 #: ../plugins/evolution/evolution-contact.cpp:311
 #: ../plugins/ldap/ldap-book.cpp:962
-#| msgid "_Name:"
 msgid "_Name"
 msgstr "_Nomo"
 
@@ -339,7 +333,6 @@ msgstr ""
 #: ../lib/engine/components/opal/opal-account.cpp:738
 #: ../lib/engine/components/opal/opal-bank.cpp:206
 #: ../lib/engine/components/opal/opal-bank.cpp:221
-#| msgid "_User:"
 msgid "_User"
 msgstr "_Uzanto"
 
@@ -354,13 +347,11 @@ msgstr ""
 #: ../lib/engine/components/opal/opal-account.cpp:751
 #: ../lib/engine/components/opal/opal-bank.cpp:211
 #: ../lib/engine/components/opal/opal-bank.cpp:229
-#| msgid "_Timeout:"
 msgid "_Timeout"
 msgstr "_Tempolimo"
 
 #: ../lib/engine/components/opal/opal-account.cpp:736
 #: ../lib/engine/components/opal/opal-bank.cpp:219
-#| msgid "Registered"
 msgid "_Registrar"
 msgstr "_Registrita"
 
@@ -380,7 +371,6 @@ msgid "jon.doe"
 msgstr ""
 
 #: ../lib/engine/components/opal/opal-account.cpp:754
-#| msgid "Enable Account"
 msgid "_Enable Account"
 msgstr "_Enŝalti konton"
 
@@ -526,7 +516,6 @@ msgid "Permanent Absence"
 msgstr ""
 
 #: ../lib/engine/components/opal/opal-account.cpp:1279
-#| msgid "IP Translation"
 msgid "Presentation"
 msgstr ""
 
@@ -591,7 +580,6 @@ msgstr "Mia SIP-konto"
 #: ../lib/engine/components/opal/opal-bank.cpp:233
 #: ../plugins/loudmouth/loudmouth-account.cpp:375
 #: ../plugins/loudmouth/loudmouth-bank.cpp:124
-#| msgid "Enable Account"
 msgid "_Enable account"
 msgstr "_Enŝalti konton"
 
@@ -657,12 +645,10 @@ msgid "_Add an H.323 Account"
 msgstr ""
 
 #: ../lib/engine/components/opal/opal-call.cpp:92
-#| msgid "_Hang up"
 msgid "Hangup"
 msgstr "Rekroĉi"
 
 #: ../lib/engine/components/opal/opal-call.cpp:142
-#| msgid "_Transfer Call"
 msgid "Transfer Call"
 msgstr "Transigi telefonvokon"
 
@@ -672,7 +658,6 @@ msgid "Transfer"
 msgstr "Transigi"
 
 #: ../lib/engine/components/opal/opal-call.cpp:144
-#| msgid "Remote LDAP"
 msgid "Remote URI"
 msgstr "Fora URI"
 
@@ -740,7 +725,6 @@ msgid "Call forwarded"
 msgstr "Sendita telefonvoko"
 
 #: ../lib/engine/components/opal/opal-call.cpp:545
-#| msgid "No answer timeout"
 msgid "No answer"
 msgstr "Neniu respondo"
 
@@ -753,7 +737,6 @@ msgid "Transmit Video"
 msgstr ""
 
 #: ../lib/engine/components/opal/opal-presentity.cpp:146
-#| msgid "Rename group"
 msgid "Rename _Groups"
 msgstr "Alinomi _grupojn"
 
@@ -762,7 +745,6 @@ msgstr "Alinomi _grupojn"
 #.
 #: ../lib/engine/components/opal/opal-presentity.cpp:275
 #, c-format
-#| msgid "Edit contact"
 msgid "Editing Contact %s"
 msgstr "Redakti kontakton %s"
 
@@ -772,7 +754,6 @@ msgid "Done"
 msgstr ""
 
 #: ../lib/engine/components/opal/opal-presentity.cpp:280
-#| msgid "Name:"
 msgid "Name"
 msgstr "Nomo"
 
@@ -1124,7 +1105,6 @@ msgid "Ekiga.im Account"
 msgstr "Enŝalti konton"
 
 #: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:239
-#| msgid "Please enter your username:"
 msgid "Please enter your ekiga.im SIP address:"
 msgstr "Bonvolu enigi vian SIP-adreson de ekiga.im:"
 
@@ -1249,7 +1229,6 @@ msgstr ""
 
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:559
 #, c-format
-#| msgid "Your video driver doesn't support the requested video format."
 msgid ""
 "There was an error while opening %s.\n"
 "\n"
@@ -1261,7 +1240,6 @@ msgstr ""
 
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:563
 #, c-format
-#| msgid "Could not open the chosen channel."
 msgid ""
 "There was an error while opening %s.\n"
 "\n"
@@ -1434,7 +1412,6 @@ msgstr ""
 #.
 #. Reject
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:1354
-#| msgid "Reject"
 msgid "_Reject"
 msgstr "_Refuzi"
 
@@ -1516,7 +1493,6 @@ msgid "Chat Window"
 msgstr "Babilfenestro"
 
 #: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:644
-#| msgid "Remote Application:"
 msgid "Show the application's help"
 msgstr "Montri la helpon de la aplikaĵo"
 
@@ -1641,7 +1617,6 @@ msgstr "Ludi sonon por novaj mesaĝoj"
 
 #. Display
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:548
-#| msgid "Show offline contacts"
 msgid "Show o_ffline contacts"
 msgstr "Montri _nekonektitajn kontaktojn"
 
@@ -1717,10 +1692,6 @@ msgid "Forward calls to the given host if _busy"
 msgstr "Plusendi vokojn al havigita ĉefkomputilo, se ĝi estas _okupita"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:582
-#| msgid ""
-#| "If enabled, all incoming calls will be forwarded to the host that is "
-#| "specified in the protocol settings if you already are in a call or if you "
-#| "are in Do Not Disturb mode"
 msgid ""
 "If enabled, all incoming calls will be forwarded to the host that is "
 "specified in the protocol settings if you already are in a call or if you "
@@ -1743,7 +1714,7 @@ msgstr "Sendi talefonvokojn al ĉi tiu gastiga komputilo"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:588
 msgid "seconds"
-msgstr ""
+msgstr "sekundoj"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:590
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:66
@@ -1955,7 +1926,6 @@ msgid "Select the ringing audio device to use"
 msgstr ""
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:867
-#| msgid "Output device:"
 msgid "Output Device"
 msgstr "Elig-aparato"
 
@@ -1966,7 +1936,6 @@ msgstr "Elektu uzendan aparaton de soneligo"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:877
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:967
-#| msgid "Input device:"
 msgid "Input Device"
 msgstr "Enig-aparato"
 
@@ -1987,24 +1956,24 @@ msgstr "Alklaku ĉi tie por ĝisdatigi liston de aparatoj"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:908
 msgid "Small"
-msgstr ""
+msgstr "Malgrande"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:909
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:910
 msgid "Medium"
-msgstr ""
+msgstr "Meze"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:911
 msgid "480p 4:3 HD"
-msgstr ""
+msgstr "480p 4:3 HD"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:912
 msgid "DVD"
-msgstr ""
+msgstr "DVD"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:913
 msgid "720p HD"
-msgstr ""
+msgstr "720p HD"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:914
 msgid "1080p Full HD"
@@ -2050,7 +2019,7 @@ msgstr ""
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:955
 msgid "kbits/s"
-msgstr ""
+msgstr "kbits/s"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:957
 msgid ""
@@ -2069,7 +2038,6 @@ msgstr ""
 "tiu, provbildo estos elsendita."
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:971
-#| msgid "Size:"
 msgid "Size"
 msgstr "Grando"
 
@@ -2093,7 +2061,6 @@ msgstr ""
 "videokameroj)"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:983
-#| msgid "Channel:"
 msgid "Channel"
 msgstr "Kanalo"
 
@@ -2115,12 +2082,10 @@ msgid "No device found"
 msgstr "Neniu aparato estas trovita"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1726
-#| msgid "Ekiga Preferences"
 msgid "Preferences"
 msgstr "Agordoj"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1727
-#| msgid "Edit your accounts"
 msgid "Edit your settings"
 msgstr "Redaktu viajn agordojn"
 
@@ -2163,11 +2128,10 @@ msgstr "Neordigite"
 #, c-format
 msgid "You have %d message"
 msgid_plural "You have %d messages"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Vi havas %d mesaĝon"
+msgstr[1] "Vi havas %d mesaĝojn"
 
 #: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:89
-#| msgid "Disable"
 msgid "Available"
 msgstr "Disponeble"
 
@@ -2207,7 +2171,7 @@ msgstr "Forigi propran mesaĝon:"
 
 #: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:676
 msgid "_OK"
-msgstr ""
+msgstr "_Bone"
 
 #: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:690
 msgid "Define a custom message:"
@@ -2227,19 +2191,19 @@ msgstr ""
 #: ../lib/engine/protocol/known-codecs.h:40
 #: ../lib/engine/protocol/known-codecs.h:41
 msgid "G.722.1C"
-msgstr ""
+msgstr "G.722.1C"
 
 #: ../lib/engine/protocol/known-codecs.h:39
 msgid "Annex C, 14 kHz mode at 24 kbit/s"
-msgstr ""
+msgstr "Annex C, 14 kHz mode je 24 kbit/s"
 
 #: ../lib/engine/protocol/known-codecs.h:40
 msgid "Annex C, 14 kHz mode at 32 kbit/s"
-msgstr ""
+msgstr "Annex C, 14 kHz mode je 32 kbit/s"
 
 #: ../lib/engine/protocol/known-codecs.h:41
 msgid "Annex C, 14 kHz mode at 48 kbit/s"
-msgstr ""
+msgstr "Annex C, 14 kHz mode je 48 kbit/s"
 
 #: ../lib/engine/protocol/known-codecs.h:42
 msgid "Opus"
@@ -2252,7 +2216,7 @@ msgstr ""
 #: ../lib/engine/protocol/known-codecs.h:43
 #: ../lib/engine/protocol/known-codecs.h:44
 msgid "iSAC"
-msgstr ""
+msgstr "iSAC"
 
 #: ../lib/engine/protocol/known-codecs.h:43
 msgid "internet Speech Audio Codec, 16 kHz mode"
@@ -2264,7 +2228,7 @@ msgstr ""
 
 #: ../lib/engine/protocol/known-codecs.h:45
 msgid "G.722"
-msgstr ""
+msgstr "G.722"
 
 #: ../lib/engine/protocol/known-codecs.h:45
 msgid "Basic G.722"
@@ -2273,7 +2237,7 @@ msgstr ""
 #: ../lib/engine/protocol/known-codecs.h:46
 #: ../lib/engine/protocol/known-codecs.h:47
 msgid "G.722.1"
-msgstr ""
+msgstr "G.722.1"
 
 #: ../lib/engine/protocol/known-codecs.h:46
 msgid "7 kHz mode at 24 kbits/s"
@@ -2285,7 +2249,7 @@ msgstr ""
 
 #: ../lib/engine/protocol/known-codecs.h:48
 msgid "G.722.2"
-msgstr ""
+msgstr "G.722.2"
 
 #: ../lib/engine/protocol/known-codecs.h:48
 msgid "AMR Wideband"
@@ -2293,7 +2257,7 @@ msgstr ""
 
 #: ../lib/engine/protocol/known-codecs.h:49
 msgid "AMR-NB"
-msgstr ""
+msgstr "AMR-NB"
 
 #: ../lib/engine/protocol/known-codecs.h:49
 msgid "AMR Narrowband"
@@ -2302,19 +2266,19 @@ msgstr ""
 #: ../lib/engine/protocol/known-codecs.h:50
 #: ../lib/engine/protocol/known-codecs.h:51
 msgid "SILK"
-msgstr ""
+msgstr "SILK"
 
 #: ../lib/engine/protocol/known-codecs.h:50
 msgid "Skype SILK 8 kbits/s"
-msgstr ""
+msgstr "Skype SILK 8 kbits/s"
 
 #: ../lib/engine/protocol/known-codecs.h:51
 msgid "Skype SILK 16 kbits/s"
-msgstr ""
+msgstr "Skype SILK 16 kbits/s"
 
 #: ../lib/engine/protocol/known-codecs.h:52
 msgid "G.711 A-Law"
-msgstr ""
+msgstr "G.711 A-Law"
 
 #: ../lib/engine/protocol/known-codecs.h:52
 #: ../lib/engine/protocol/known-codecs.h:53
@@ -2323,64 +2287,64 @@ msgstr ""
 
 #: ../lib/engine/protocol/known-codecs.h:53
 msgid "G.711 µ-Law"
-msgstr ""
+msgstr "G.711 µ-Law"
 
 #: ../lib/engine/protocol/known-codecs.h:54
 #: ../lib/engine/protocol/known-codecs.h:55
 #: ../lib/engine/protocol/known-codecs.h:56
 #: ../lib/engine/protocol/known-codecs.h:57
 msgid "G.726"
-msgstr ""
+msgstr "G.726"
 
 #: ../lib/engine/protocol/known-codecs.h:54
 msgid "G.726 at 16 kbits/s"
-msgstr ""
+msgstr "G.726 je 16 kbits/s"
 
 #: ../lib/engine/protocol/known-codecs.h:55
 msgid "G.726 at 24 kbits/s"
-msgstr ""
+msgstr "G.726 je 24 kbits/s"
 
 #: ../lib/engine/protocol/known-codecs.h:56
 msgid "G.726 at 32 kbits/s"
-msgstr ""
+msgstr "G.726 je 32 kbits/s"
 
 #: ../lib/engine/protocol/known-codecs.h:57
 msgid "G.726 at 40 kbits/s"
-msgstr ""
+msgstr "G.726 je 40 kbits/s"
 
 #: ../lib/engine/protocol/known-codecs.h:58
 msgid "IMA ADPCM"
-msgstr ""
+msgstr "IMA ADPCM"
 
 #: ../lib/engine/protocol/known-codecs.h:58
 msgid "Microsoft IMA ADPCM"
-msgstr ""
+msgstr "Microsoft IMA ADPCM"
 
 #: ../lib/engine/protocol/known-codecs.h:59
 msgid "H.261"
-msgstr ""
+msgstr "H.261"
 
 #: ../lib/engine/protocol/known-codecs.h:59
 msgid "Basic H.261"
-msgstr ""
+msgstr "Baza H.261"
 
 #: ../lib/engine/protocol/known-codecs.h:60
 msgid "H.263"
-msgstr ""
+msgstr "H.263"
 
 #: ../lib/engine/protocol/known-codecs.h:61
 msgid "H.263+"
-msgstr ""
+msgstr "H.263+"
 
 #: ../lib/engine/protocol/known-codecs.h:61
 msgid "H.263 Version 1998"
-msgstr ""
+msgstr "H.263 Versio 1998"
 
 #: ../lib/engine/protocol/known-codecs.h:62
 #: ../lib/engine/protocol/known-codecs.h:63
 #: ../lib/engine/protocol/known-codecs.h:64
 msgid "H.264"
-msgstr ""
+msgstr "H.264"
 
 #: ../lib/engine/protocol/known-codecs.h:62
 msgid "H.264 Single NAL mode"
@@ -2396,7 +2360,7 @@ msgstr ""
 
 #: ../lib/engine/protocol/known-codecs.h:65
 msgid "MPEG-4"
-msgstr ""
+msgstr "MPEG-4"
 
 #: ../lib/engine/protocol/known-codecs.h:66
 msgid "VP8"
@@ -2847,7 +2811,6 @@ msgid "Enable early H.245"
 msgstr "Enŝalti rapidaĵon de H.245"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:103
-#| msgid "Enable 'Fast Start'"
 msgid "Enable 'Fast Connect'"
 msgstr "Enŝalti 'Rapidan konekton'"
 
@@ -2867,7 +2830,6 @@ msgstr ""
 "H.323v2."
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:105
-#| msgid "Enable early H.245"
 msgid "Enable H.239"
 msgstr "Enŝalti H.239"
 
@@ -2932,10 +2894,6 @@ msgid "Forward calls to the given host if busy"
 msgstr "Se ĝi estas okupita, sendi telefonvokojn al difinita gastiga komputilo"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:117
-#| msgid ""
-#| "If enabled, all incoming calls will be forwarded to the host that is "
-#| "specified in the field below if you already are in a call or if you are "
-#| "in Do Not Disturb mode"
 msgid ""
 "If enabled, all incoming calls will be forwarded to the host that is "
 "specified in the field below if you already are in a call or if you are in "
@@ -2979,7 +2937,6 @@ msgid "List of configured LDAP servers"
 msgstr ""
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:125
-#| msgid "Resource:"
 msgid "Resource lists"
 msgstr "Risurcolistoj"
 
@@ -3020,7 +2977,6 @@ msgstr ""
 
 #: ../plugins/evolution/evolution-book.cpp:350
 #: ../plugins/evolution/evolution-contact.cpp:322
-#| msgid "_Home phone:"
 msgid "_Home Phone"
 msgstr "_Hejma telefono"
 
@@ -3042,7 +2998,6 @@ msgstr ""
 
 #: ../plugins/evolution/evolution-book.cpp:354
 #: ../plugins/evolution/evolution-contact.cpp:326
-#| msgid "_Cell phone:"
 msgid "_Cell Phone"
 msgstr "_Poŝtelefono"
 
@@ -3088,7 +3043,7 @@ msgstr ""
 
 #: ../plugins/gstreamer/gst-videoinput.cpp:346
 msgid "Screencast"
-msgstr ""
+msgstr "Ekrankopio"
 
 #: ../plugins/ldap/ldap-book.cpp:362 ../plugins/resource-list/rl-entry.cpp:159
 #: ../plugins/resource-list/rl-entry-ref.cpp:137
@@ -3188,7 +3143,6 @@ msgid "Call _Attributes"
 msgstr ""
 
 #: ../plugins/ldap/ldap-book.cpp:993 ../plugins/ldap/ldap-book.cpp:996
-#| msgid "_Search Filter:"
 msgid "_Filter"
 msgstr "_Filtrilo"
 
@@ -3226,12 +3180,10 @@ msgid "Please provide a Server URI\n"
 msgstr ""
 
 #: ../plugins/ldap/ldap-book.cpp:1067
-#| msgid "Please provide a room name"
 msgid "Please provide a DisplayName attribute\n"
 msgstr ""
 
 #: ../plugins/ldap/ldap-book.cpp:1070
-#| msgid "Please provide a room name"
 msgid "Please provide a Call attribute\n"
 msgstr ""
 
@@ -3253,18 +3205,15 @@ msgstr ""
 
 #: ../plugins/loudmouth/loudmouth-account.cpp:111
 #: ../plugins/loudmouth/loudmouth-account.cpp:158
-#| msgid "inactive"
 msgid "Inactive"
 msgstr "Neaktive"
 
 #: ../plugins/loudmouth/loudmouth-account.cpp:237
 #, c-format
-#| msgid "Could not connect to server"
 msgid "Could not connect (%s)"
 msgstr "Ne eblas konekti (%s)"
 
 #: ../plugins/loudmouth/loudmouth-account.cpp:243
-#| msgid "connecting"
 msgid "Connecting..."
 msgstr "Konektante..."
 
@@ -3274,17 +3223,14 @@ msgstr ""
 
 #. FIXME: can't we report better?
 #: ../plugins/loudmouth/loudmouth-account.cpp:293
-#| msgid "Could not connect to server"
 msgid "Could not connect"
 msgstr "Ne eblas konekti"
 
 #: ../plugins/loudmouth/loudmouth-account.cpp:303
-#| msgid "connected"
 msgid "Disconnected"
 msgstr "Malkonektite"
 
 #: ../plugins/loudmouth/loudmouth-account.cpp:313
-#| msgid "connected"
 msgid "Connected"
 msgstr "Konektite"
 
@@ -3604,7 +3550,7 @@ msgstr ""
 #: ../plugins/resource-list/rl-list.cpp:182
 #, c-format
 msgid "%s / List #%d"
-msgstr ""
+msgstr "%s / listo #%d"
 
 #. Translators: #%d - ordinal number
 #: ../plugins/resource-list/rl-list.cpp:187
@@ -3973,7 +3919,7 @@ msgstr ""
 #~ msgstr "_Tuta nomo:"
 
 #~ msgid "Start _hidden"
-#~ msgstr "Startigi ka_ŝite"
+#~ msgstr "Startigi _kaŝite"
 
 #~ msgid "Video Display"
 #~ msgstr "Videoekrano"
