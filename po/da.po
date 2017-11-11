@@ -1,5 +1,5 @@
 # Danish translation of ekiga.
-# Copyright (C) 2013 Free Software Foundation, Inc.
+# Copyright (C) 2016 Free Software Foundation, Inc.
 # This file is distributed under the same license as the ekiga package.
 # Byrial Jensen <byrial@image.dk>, 2001.
 # Keld Simonsen <keld@dkuug.dk>, 2001, 2002, 2003.
@@ -10,6 +10,7 @@
 # Kenneth Nielsen <k.nielsen81@gmail.com>, 2007-2011.
 # Peter Bach <bach.peter@gmail.com>, 2007-2009.
 # Joe Hansen <joedalton2@yahoo.dk>, 2013.
+# Alan Mortensen <alanmortensen.am@gmail.com>, 2016.
 #
 # Konventioner:
 #
@@ -41,16 +42,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ekiga\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-15 18:37+0200\n"
-"PO-Revision-Date: 2013-03-21 23:31+0200\n"
-"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
+"product=ekiga&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2017-03-17 03:40+0000\n"
+"PO-Revision-Date: 2016-11-18 21:06+0100\n"
+"Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #. Application name
 #: ../ekiga.desktop.in.in.h:1 ../src/gui/main.cpp:106 ../src/gui/main.cpp:108
@@ -359,7 +362,7 @@ msgstr "Udgående mellemvært"
 #: ../ekiga.schemas.in.in.h:58
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:716
 msgid "The SIP Outbound Proxy to use for outgoing calls"
-msgstr "SIP-udgående mellemvært til brug for udgående opkald"
+msgstr "SIP-udgående proxy til brug for udgående opkald"
 
 #: ../ekiga.schemas.in.in.h:59
 msgid "Forward calls to host"
@@ -381,8 +384,8 @@ msgid ""
 "Select the mode for sending DTMFs. The values can be 0 (for \"RFC2833\") and "
 "1 (for \"INFO\")"
 msgstr ""
-"Vælg DTMF-sendingstilstand. Værdien kan være 0 (for \"RFC2833\") og 1 (for "
-"\"INFO\")"
+"Vælg DTMF-sendingstilstand. Værdien kan være 0 (for “RFC2833”) og 1 (for "
+"“INFO”)"
 
 #: ../ekiga.schemas.in.in.h:63
 msgid ""
@@ -477,9 +480,9 @@ msgid ""
 "video\"), 1 (for \"allow per content role mask\"), 2 (for \"force "
 "presentation\"), or 3 (for \"force live role\")"
 msgstr ""
-"Vælg H.239-videorollen. Værdierne kan være 0 (for \"deaktiver udvidet video"
-"\"), 1 (for \"tillad per indholdsrollemaske\"), 2 (for \"fremtving "
-"præsentation\") eller 3 (for \"fremtving liverolle\")"
+"Vælg H.239-videorollen. Værdierne kan være 0 (for “deaktiver udvidet "
+"video”), 1 (for “tillad per indholdsrollemaske”), 2 (for “fremtving "
+"præsentation”) eller 3 (for “fremtving liverolle”)"
 
 #: ../ekiga.schemas.in.in.h:78
 msgid ""
@@ -487,9 +490,9 @@ msgid ""
 "(for \"Tone\"), 2 (for \"RFC2833\"), or 3 (for \"Q.931\") (default is "
 "\"String\"). Choosing other values than \"String\" disables the Text Chat."
 msgstr ""
-"Vælg DTMF-sendingstilstand. Værdierne kan være 0 (for \"String\"), 1 (for "
-"\"Tone\"), 2 (for \"RFC2833\") eller 3 (for \"Q.931\") (standard er \"String"
-"\"). Valg af andre værdier end \"String\" deaktiverer tekstsamtale."
+"Vælg DTMF-sendetilstand. Værdierne kan være 0 (for “String”), 1 (for "
+"“Tone”), 2 (for “RFC2833”) eller 3 (for “Q.931”) (standard er “String”). "
+"Valg af andre værdier end “String” deaktiverer tekstsamtale."
 
 #: ../ekiga.schemas.in.in.h:79
 msgid "Always forward calls to the given host"
@@ -1140,7 +1143,7 @@ msgstr[1] "%s (med %d talebeskeder)"
 #: ../lib/engine/components/opal/opal-account.cpp:326
 #: ../lib/engine/components/opal/opal-account.cpp:755
 msgid "Processing..."
-msgstr "Behandler..."
+msgstr "Behandler …"
 
 #: ../lib/engine/components/opal/opal-account.cpp:406
 #: ../lib/engine/gui/gtk-frontend/accounts-window.cpp:677
@@ -1398,8 +1401,7 @@ msgstr "_Tilføj en SIP-konto"
 msgid "_Add an H.323 Account"
 msgstr "_Tilføj en H.323-konto"
 
-#: ../lib/engine/components/opal/opal-bank.cpp:104
-#: ../src/gui/assistant.cpp:645
+#: ../lib/engine/components/opal/opal-bank.cpp:104 ../src/gui/assistant.cpp:645
 msgid "Get an Ekiga.net SIP account"
 msgstr "Få en SIP-konto til Ekiga.net"
 
@@ -1416,8 +1418,7 @@ msgstr "_Bruger:"
 msgid "_Password:"
 msgstr "_Adgangskode:"
 
-#: ../lib/engine/components/opal/opal-bank.cpp:114
-#: ../src/gui/assistant.cpp:749
+#: ../lib/engine/components/opal/opal-bank.cpp:114 ../src/gui/assistant.cpp:749
 msgid "Get an Ekiga Call Out account"
 msgstr "Få en Ekiga-opkaldskonto"
 
@@ -2012,7 +2013,7 @@ msgstr ""
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:1128
 #, c-format
 msgid "Calling %s..."
-msgstr "Kalder %s ..."
+msgstr "Kalder %s …"
 
 #. %s is the SIP/H.323 address of the remote user, this text is shown
 #. below video during a call
@@ -2043,14 +2044,14 @@ msgstr "Opkald venter"
 msgid "Call retrieved"
 msgstr "Opkald indhentet"
 
-# mm, det er i opkaldsvinduet, så spørgsmålet er om det her er beskeden 
-# der kommer frem når opkaldet går igennem, det kan være man kan oversætte 
+# mm, det er i opkaldsvinduet, så spørgsmålet er om det her er beskeden
+# der kommer frem når opkaldet går igennem, det kan være man kan oversætte
 # til sådan noget som:
 # Forbundet til %s
 # %s
-# men det vil selvfølgelig muligvis indføre noget inkonsistens omkring 
-# "connect". Jeg mener dog godt at man kan skelne imellem tilslutte 
-# (til server) og forbundet (med peer eller anden person) men det vil 
+# men det vil selvfølgelig muligvis indføre noget inkonsistens omkring
+# "connect". Jeg mener dog godt at man kan skelne imellem tilslutte
+# (til server) og forbundet (med peer eller anden person) men det vil
 # selvfølgelig skulle gøre generelt
 # #: ../lib/engine/gui/gtk-frontend/call-window.cpp:1319
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:1318
@@ -2290,7 +2291,7 @@ msgstr "Kopiér link"
 
 #: ../lib/engine/gui/gtk-frontend/chat-area.cpp:899
 msgid "_Smile..."
-msgstr "_Smil..."
+msgstr "_Smil …"
 
 #: ../lib/engine/gui/gtk-frontend/chat-window.cpp:139
 #, c-format
@@ -2531,7 +2532,7 @@ msgstr "_Send DTMF som:"
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:694
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:727
 msgid "Select the mode for DTMFs sending"
-msgstr "Vælg DTMF-sendingstilstand"
+msgstr "Vælg DTMF-sendetilstand"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:708
 msgid "INFO"
@@ -2539,7 +2540,7 @@ msgstr "INFO"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:716
 msgid "_Outbound proxy:"
-msgstr "_Udgående mellemvært:"
+msgstr "_Udgående proxy:"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:744
 #: ../src/gui/assistant.cpp:996
@@ -2848,6 +2849,7 @@ msgstr ""
 "Ole Laursen\n"
 "Peter Bach\n"
 "Kenneth Nielsen\n"
+"Alan Mortensen\n"
 "\n"
 "Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
 "Mere info: http://www.dansk-gruppen.dk"
@@ -2858,7 +2860,7 @@ msgid ""
 "Videoconferencing application that allows you to make audio and video calls "
 "to remote users with SIP and H.323 hardware or software."
 msgstr ""
-"Ekiga er et fuld-funktionsdygtigt program til SIP og H.323-kompatible VoIP, "
+"Ekiga er et fuld-funktionsdygtigt program til SIP- og H.323-kompatible VoIP, "
 "IP-telefoni, videokonferencer der gør det muligt at foretage lyd- og "
 "videoopkald til andre fjernbrugere med SIP og H.323-udstyr eller -programmer."
 
@@ -2874,8 +2876,7 @@ msgstr "Vis ikke dette vindue igen"
 msgid "Neighbours"
 msgstr "Naboer"
 
-#: ../plugins/evolution/evolution-book.cpp:75
-#: ../plugins/ldap/ldap-book.cpp:920
+#: ../plugins/evolution/evolution-book.cpp:75 ../plugins/ldap/ldap-book.cpp:920
 #, c-format
 msgid "%d user found"
 msgid_plural "%d users found"
@@ -3072,7 +3073,7 @@ msgstr "_Filterskabelon:"
 
 #: ../plugins/ldap/ldap-book.cpp:972 ../plugins/ldap/ldap-book.cpp:974
 msgid "Here, a \"$\" is replaced by the search string"
-msgstr "Her vil \"$\" blive erstattet af søgestrengen"
+msgstr "Her vil “$” blive erstattet af søgestrengen"
 
 #. Translators: Bind ID - In LDAP, the operation that begins an LDAP
 #. * session and authenticates the user to the directory is called a
@@ -3175,19 +3176,19 @@ msgstr "Kunne ikke tilslutte (%s)"
 #: ../plugins/loudmouth/loudmouth-account.cpp:244
 #, fuzzy
 msgid "connecting"
-msgstr "Tilslutter ..."
+msgstr "Tilslutter …"
 
 # Jvf fejlrapport http://bugzilla.gnome.org/show_bug.cgi?id=553019
 #: ../plugins/loudmouth/loudmouth-account.cpp:284
 #, fuzzy
 msgid "authenticating"
-msgstr "Godkender ..."
+msgstr "Godkender …"
 
 #. FIXME: can't we report better?
 #: ../plugins/loudmouth/loudmouth-account.cpp:294
 #, fuzzy
 msgid "error connecting"
-msgstr "Tilslutter ..."
+msgstr "Tilslutter …"
 
 #: ../plugins/loudmouth/loudmouth-account.cpp:304
 #, fuzzy
@@ -3283,7 +3284,7 @@ msgstr "Tilladelse til at se din tilstedeværelsesstatus"
 #, c-format
 msgid "%s asks the permission to see your presence, saying: \"%s\"."
 msgstr ""
-"%s beder om tilladelse til at se din tilstedeværelsesstatus og siger: \"%s\"."
+"%s beder om tilladelse til at se din tilstedeværelsesstatus og siger: “%s”."
 
 #: ../plugins/loudmouth/loudmouth-heap-roster.cpp:180
 #, c-format
@@ -3480,7 +3481,7 @@ msgstr ""
 "konfigurere Ekiga ved at stille nogle simple spørgsmål.\n"
 "\n"
 "Efter du har fuldført disse trin, kan du altid ændre indstillingerne senere "
-"ved at vælge \"Indstillinger\" i redigeringsmenuen."
+"ved at vælge “Indstillinger” i redigeringsmenuen."
 
 #: ../src/gui/assistant.cpp:349
 msgid "Welcome to Ekiga"
@@ -3872,7 +3873,7 @@ msgstr "Optaget"
 
 #: ../src/gui/statusmenu.cpp:387
 msgid "Custom message..."
-msgstr "Tilpasset besked..."
+msgstr "Tilpasset besked …"
 
 #: ../src/gui/statusmenu.cpp:432
 msgid "Clear"
