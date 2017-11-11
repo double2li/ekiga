@@ -42,9 +42,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ekiga\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=ekiga&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-08-19 16:13+0000\n"
+"POT-Creation-Date: 2017-05-04 20:34+0000\n"
 "PO-Revision-Date: 2016-11-18 21:06+0100\n"
 "Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -245,9 +245,12 @@ msgstr[1] "%s (med %d talebeskeder)"
 #: ../lib/engine/components/opal/opal-account.cpp:545
 #: ../lib/engine/components/opal/opal-account.cpp:1118
 msgid "Processing..."
-msgstr "Behandler..."
+msgstr "Behandler …"
 
 #. Translators: This is Edit name of the Account
+#. * e.g. Editing Ekiga.net Account.
+#.
+#. Translators: This is Edit name of the LDAP Account
 #. * e.g. Editing Ekiga.net Account.
 #.
 #: ../lib/engine/components/opal/opal-account.cpp:689
@@ -1067,7 +1070,7 @@ msgstr ""
 "konfigurere Ekiga ved at stille nogle simple spørgsmål.\n"
 "\n"
 "Efter du har fuldført disse trin, kan du altid ændre indstillingerne senere "
-"ved at vælge \"Indstillinger\" i redigeringsmenuen."
+"ved at vælge “Indstillinger” i redigeringsmenuen."
 
 #: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:135
 msgid "Welcome to Ekiga"
@@ -1507,7 +1510,7 @@ msgstr "Kopiér link"
 
 #: ../lib/engine/gui/gtk-frontend/chat-area.cpp:824
 msgid "_Smile..."
-msgstr "_Smil..."
+msgstr "_Smil …"
 
 #: ../lib/engine/gui/gtk-frontend/chat-window.cpp:122
 #, c-format
@@ -2197,7 +2200,7 @@ msgstr "Optaget"
 
 #: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:388
 msgid "Custom message..."
-msgstr "Tilpasset besked..."
+msgstr "Tilpasset besked …"
 
 #: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:433
 msgid "Clear"
@@ -2421,6 +2424,9 @@ msgid "New Video Input Device"
 msgstr "Ny videoind-enhed"
 
 #. whitespaces for a better alignment
+#. Translators: the following strings are letters that stand on mobile phone
+#. * keys.
+#.
 #: ../lib/gui/dialpad.c:53
 msgid "abc"
 msgstr "abc"
@@ -2817,8 +2823,8 @@ msgid ""
 "Select the mode for DTMFs transmission. The values can be 'rfc2833' (for "
 "\"RFC2833\") and 'info' (for \"SIP INFO\")"
 msgstr ""
-"Vælg DTMF-sendetilstand. Værdien kan være \"rfc2833\" (for \"RFC2833\") og "
-"\"info\" (for \"SIP INFO\")"
+"Vælg DTMF-sendetilstand. Værdien kan være “rfc2833” (for “RFC2833”) og "
+"“info” (for “SIP INFO”)"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:94
 msgid "Connection keepalive interval"
@@ -2862,7 +2868,7 @@ msgstr "Aktivér tidlig H.245"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:103
 msgid "Enable 'Fast Connect'"
-msgstr "Brug \"hurtigforbind\""
+msgstr "Brug “hurtigforbind”"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:104
 msgid ""
@@ -2892,10 +2898,10 @@ msgid ""
 "\"Presentation\" (for \"force presentation\"), or \"Live\" (for \"force live "
 "role\")"
 msgstr ""
-"Vælg H.239-videorollen. Værdierne kan være \"None\" (for \"deaktiver udvidet "
-"video\"), \"Content\" (for \"tillad per indholdsrollemaske\"), \"Presentation"
-"\" (for \"fremtving præsentation\") eller \"Live\" (for \"fremtving liverolle"
-"\")"
+"Vælg H.239-videorollen. Værdierne kan være “None” (for “deaktiver udvidet "
+"video”), “Content” (for “tillad per indholdsrollemaske”), "
+"“Presentation” (for “fremtving præsentation”) eller “Live” (for “fremtving "
+"liverolle”)"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:109
 msgid "Select the mode for DTMFs transmission"
@@ -3266,12 +3272,12 @@ msgstr "Kunne ikke tilslutte (%s)"
 
 #: ../plugins/loudmouth/loudmouth-account.cpp:243
 msgid "Connecting..."
-msgstr "Tilslutter ..."
+msgstr "Tilslutter …"
 
 # Jvf fejlrapport http://bugzilla.gnome.org/show_bug.cgi?id=553019
 #: ../plugins/loudmouth/loudmouth-account.cpp:283
 msgid "Authenticating..."
-msgstr "Godkender ..."
+msgstr "Godkender …"
 
 #. FIXME: can't we report better?
 #: ../plugins/loudmouth/loudmouth-account.cpp:293
@@ -3425,7 +3431,7 @@ msgstr "Tilladelse til at se din tilstedeværelsesstatus"
 #, c-format
 msgid "%s asks the permission to see your presence, saying: \"%s\"."
 msgstr ""
-"%s beder om tilladelse til at se din tilstedeværelsesstatus og siger: \"%s\"."
+"%s beder om tilladelse til at se din tilstedeværelsesstatus og siger: “%s”."
 
 #: ../plugins/loudmouth/loudmouth-heap-roster.cpp:180
 #, c-format
@@ -3670,10 +3676,9 @@ msgstr ""
 #~ "1 (for \"Tone\"), 2 (for \"RFC2833\"), or 3 (for \"Q.931\") (default is "
 #~ "\"String\"). Choosing other values than \"String\" disables the Text Chat."
 #~ msgstr ""
-#~ "Vælg DTMF-sendetilstand. Værdierne kan være 0 (for \"String\"), 1 (for "
-#~ "\"Tone\"), 2 (for \"RFC2833\") eller 3 (for \"Q.931\") (standard er "
-#~ "\"String\"). Valg af andre værdier end \"String\" deaktiverer "
-#~ "tekstsamtale."
+#~ "Vælg DTMF-sendetilstand. Værdierne kan være 0 (for “String”), 1 (for "
+#~ "“Tone”), 2 (for “RFC2833”) eller 3 (for “Q.931”) (standard er “String”). "
+#~ "Valg af andre værdier end “String” deaktiverer tekstsamtale."
 
 #~ msgid "NAT Binding Timeout"
 #~ msgstr "NAT-bindingstidsudløb"
@@ -4323,7 +4328,7 @@ msgstr ""
 #~ msgstr "_Filterskabelon:"
 
 #~ msgid "Here, a \"$\" is replaced by the search string"
-#~ msgstr "Her vil \"$\" blive erstattet af søgestrengen"
+#~ msgstr "Her vil “$” blive erstattet af søgestrengen"
 
 #~ msgid "User ID; leave blank for anonymous / nonauthenticated"
 #~ msgstr "Bruger-ID; efterlad blank for anonym / ikke-godkendt"
