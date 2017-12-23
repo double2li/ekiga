@@ -11,15 +11,16 @@
 # Volkan Gezer <volkangezer@gmail.com>, 2013.
 # Simge Sezgin <simgesezgin88@gmail.com>, 2015.
 # Muhammet Kara <muhammetk@gmail.com>, 2011, 2013, 2014, 2015, 2016.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemeeting\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=ekiga&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-11-18 20:05+0000\n"
-"PO-Revision-Date: 2016-11-30 23:54+0300\n"
-"Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
+"POT-Creation-Date: 2017-05-04 20:34+0000\n"
+"PO-Revision-Date: 2017-12-23 09:58+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -37,6 +38,12 @@ msgid ""
 "and all modern VoIP features for both SIP and H.323. Ekiga is the first Open "
 "Source application to support both H.323 and SIP, as well as audio and video."
 msgstr ""
+"Ekiga, SIP veya H.323 uyumlu donanım ve yazılımla uzak kullanıcılara sesli "
+"ve görüntülü arama yapmanızı sağlayan bir VoIP, IP Telefon Haberleşmesi ve "
+"Video Toplantı yazılımıdır. Hem SIP hem H.323 için tüm çağdaş VoIP "
+"özelliklerini, birçok ses ve görüntü çözücüyü destekler. Ekiga, ses ve "
+"görüntü gibi hem H.323 hem SIP'i aynı anda destekleyen ilk Açık Kaynaklı "
+"uygulamadır."
 
 #. Application name
 #. FIXME ??? ekiga-settings.h
@@ -56,19 +63,16 @@ msgid "Talk to and see people over the Internet"
 msgstr "İnternet üzerinden insanlarla konuşun ve onları görün"
 
 #: ../lib/engine/audioinput/audioinput-core.cpp:275
-#| msgid "Audio Input Device"
 msgid "New Audio Input Device"
 msgstr "Yeni Ses Girişi Aygıtı"
 
 #: ../lib/engine/audioinput/audioinput-core.cpp:276
 #: ../lib/engine/audiooutput/audiooutput-core.cpp:451
 #: ../lib/engine/videoinput/videoinput-core.cpp:377
-#| msgid "Use it"
 msgid "Use It"
 msgstr "Bunu Kullan"
 
 #: ../lib/engine/audiooutput/audiooutput-core.cpp:449
-#| msgid "Audio Output Device"
 msgid "New Audio Output Device"
 msgstr "Yeni Ses Çıkışı Aygıtı"
 
@@ -86,11 +90,10 @@ msgstr "Yerleştirilmiş"
 
 #: ../lib/engine/components/call-history/history-contact.cpp:206
 msgid "Missed"
-msgstr "Cevapsız"
+msgstr "Yanıtsız"
 
 #. This Action can be added to the FriendOrFoe
 #: ../lib/engine/components/foe-list/foe-list.cpp:45
-#| msgid "Edit the Blacklist"
 msgid "_Edit Blacklist"
 msgstr "Kara Listeyi _Düzenle"
 
@@ -103,7 +106,6 @@ msgid "Blacklist"
 msgstr "Kara Liste"
 
 #: ../lib/engine/components/foe-list/foe-list.cpp:120
-#| msgid "Blacklist"
 msgid "_Blacklist"
 msgstr "_Kara Liste"
 
@@ -116,7 +118,6 @@ msgstr "%s üzerinden gelen arama"
 
 #: ../lib/engine/components/glib-notify/glib-notify-main.cpp:225
 #, c-format
-#| msgid "Remote URI:"
 msgid "Remote URI: %s"
 msgstr "Uzaktaki URI: %s"
 
@@ -128,7 +129,7 @@ msgstr "Reddet"
 #: ../lib/engine/components/glib-notify/glib-notify-main.cpp:231
 #: ../lib/engine/components/opal/opal-call.cpp:95
 msgid "Answer"
-msgstr "Cevapla"
+msgstr "Yanıtla"
 
 #: ../lib/engine/components/opal/h323-call-manager.cpp:82
 #: ../lib/engine/components/opal/sip-call-manager.cpp:96
@@ -184,7 +185,7 @@ msgstr "_Etkisizleştir"
 #: ../lib/engine/components/opal/opal-account.cpp:245
 #: ../lib/engine/components/opal/opal-account.cpp:247
 msgid "Recharge the Ekiga Call Out account"
-msgstr "Ekiga Dış Arama hesabını tekrar doldur"
+msgstr "Ekiga Dış Arama hesabını yeniden doldur"
 
 #: ../lib/engine/components/opal/opal-account.cpp:251
 #: ../lib/engine/components/opal/opal-account.cpp:253
@@ -204,7 +205,7 @@ msgstr "Ekiga Dış Arama çağrı geçmişine başvur"
 #: ../plugins/resource-list/rl-heap.cpp:175
 #: ../plugins/resource-list/rl-presentity.cpp:142
 msgid "Unnamed"
-msgstr "İsimsiz"
+msgstr "Adsız"
 
 #. translators : the result will look like :
 #. * "registered (with 2 voice mail messages)"
@@ -213,7 +214,7 @@ msgstr "İsimsiz"
 #, c-format
 msgid "%s (with %d voice mail message)"
 msgid_plural "%s (with %d voice mail messages)"
-msgstr[0] "%s (%d sesli mesajla)"
+msgstr[0] "%s (%d sesli iletiyle)"
 
 #: ../lib/engine/components/opal/opal-account.cpp:545
 #: ../lib/engine/components/opal/opal-account.cpp:1118
@@ -221,6 +222,9 @@ msgid "Processing..."
 msgstr "İşleniyor..."
 
 #. Translators: This is Edit name of the Account
+#. * e.g. Editing Ekiga.net Account.
+#.
+#. Translators: This is Edit name of the LDAP Account
 #. * e.g. Editing Ekiga.net Account.
 #.
 #: ../lib/engine/components/opal/opal-account.cpp:689
@@ -276,7 +280,7 @@ msgstr "Giden _Vekil Sunucu"
 #: ../lib/engine/components/opal/opal-bank.cpp:196
 #: ../lib/engine/components/opal/opal-bank.cpp:227
 msgid "proxy.company.com"
-msgstr "proxy.sirketadi.com"
+msgstr "vekil.sirketadi.com"
 
 #: ../lib/engine/components/opal/opal-account.cpp:711
 #: ../lib/engine/components/opal/opal-bank.cpp:191
@@ -368,7 +372,7 @@ msgstr "Hesabı _Etkinleştir"
 
 #: ../lib/engine/components/opal/opal-account.cpp:804
 msgid "You did not supply a name for that account."
-msgstr "Bu hesap için bir isim girmediniz."
+msgstr "Bu hesap için bir ad girmediniz."
 
 #: ../lib/engine/components/opal/opal-account.cpp:806
 msgid "You did not supply a host to register to."
@@ -392,7 +396,7 @@ msgstr "Kişi Ekle"
 #: ../plugins/evolution/evolution-book.cpp:346
 #: ../plugins/evolution/evolution-contact.cpp:311
 msgid "John Doe"
-msgstr "John Doe"
+msgstr "Sıradan Adam"
 
 #: ../lib/engine/components/opal/opal-account.cpp:894
 #: ../plugins/evolution/evolution-book.cpp:348
@@ -404,7 +408,7 @@ msgstr "_URI"
 #: ../lib/engine/components/opal/opal-account.cpp:898
 #: ../lib/engine/components/opal/opal-presentity.cpp:291
 msgid "Groups"
-msgstr "Gruplar"
+msgstr "Kümeler"
 
 #: ../lib/engine/components/opal/opal-account.cpp:920
 #: ../lib/engine/components/opal/opal-account.cpp:936
@@ -457,7 +461,7 @@ msgstr "Tatil"
 
 #: ../lib/engine/components/opal/opal-account.cpp:1227
 msgid "In transit"
-msgstr "Nakledilmekte"
+msgstr "Taşımada"
 
 #: ../lib/engine/components/opal/opal-account.cpp:1231
 msgid "Looking for work"
@@ -529,7 +533,7 @@ msgstr "İbadet"
 
 #: ../lib/engine/components/opal/opal-account.cpp:1350
 msgid "Renaming Groups"
-msgstr "Gruplar Yeniden Adlandırılıyor"
+msgstr "Kümeler Yeniden Adlandırılıyor"
 
 #: ../lib/engine/components/opal/opal-bank.cpp:168
 #: ../plugins/ldap/ldap-book.cpp:957
@@ -664,7 +668,7 @@ msgstr "Anormal arama sonu"
 
 #: ../lib/engine/components/opal/opal-call.cpp:518
 msgid "User is offline"
-msgstr "Kullanıcı çevrimdışı"
+msgstr "Kullanıcı çevrim dışı"
 
 #: ../lib/engine/components/opal/opal-call.cpp:523
 msgid "Call forbidden"
@@ -696,7 +700,7 @@ msgstr "Arama yönlendirildi"
 
 #: ../lib/engine/components/opal/opal-call.cpp:545
 msgid "No answer"
-msgstr "Cevap yok"
+msgstr "Yanıt yok"
 
 #: ../lib/engine/components/opal/opal-call.cpp:557
 msgid "Call completed"
@@ -708,7 +712,7 @@ msgstr "Video Aktar"
 
 #: ../lib/engine/components/opal/opal-presentity.cpp:146
 msgid "Rename _Groups"
-msgstr "_Grupları Yeniden Adlandır"
+msgstr "_Kümeleri Yeniden Adlandır"
 
 #. Translators: This is Edit name of the contact
 #. * e.g. Editing Contact Claire Fleury.
@@ -725,7 +729,7 @@ msgstr "Bitti"
 
 #: ../lib/engine/components/opal/opal-presentity.cpp:280
 msgid "Name"
-msgstr "İsim"
+msgstr "Ad"
 
 #: ../lib/engine/components/opal/opal-presentity.cpp:285
 msgid "URI"
@@ -733,7 +737,7 @@ msgstr "URI"
 
 #: ../lib/engine/components/opal/opal-presentity.cpp:314
 msgid "You did not provide a valid name"
-msgstr "Geçerli bir isim sağlamadınız"
+msgstr "Geçerli bir ad sağlamadınız"
 
 #: ../lib/engine/components/opal/opal-presentity.cpp:318
 msgid "You did not provide a valid address"
@@ -766,6 +770,10 @@ msgid ""
 "NAT environments.\n"
 "\n"
 msgstr ""
+"Ekiga, ağ ayarlarınızı kendiliğinden yapılandırmayı beceremedi. STUN "
+"desteğini kapatmanızı ve bir NAT ortamlarını destekleyen bir SIP sağlayıcı "
+"üzerinden aktarım yapmanızı öneririz.\n"
+"\n"
 
 #: ../lib/engine/components/opal/process/sip-endpoint.cpp:298
 msgid "Illegal status code"
@@ -818,7 +826,7 @@ msgstr "Ödeme gerekli"
 
 #: ../lib/engine/components/opal/process/sip-endpoint.cpp:360
 msgid "Forbidden, please check that username and password are correct"
-msgstr "Yasaklı, lütfen kullanıcı adı ve parolanın doğruluğunu kontrol edin"
+msgstr "Yasaklı, lütfen kullanıcı adı ve parolanın doğruluğunu denetleyin"
 
 #: ../lib/engine/components/opal/process/sip-endpoint.cpp:364
 msgid "Not found"
@@ -886,7 +894,7 @@ msgstr "Geçici olarak kullanılamaz"
 
 #: ../lib/engine/components/opal/process/sip-endpoint.cpp:428
 msgid "Loop detected"
-msgstr "Döngü tespit edildi"
+msgstr "Döngü saptandı"
 
 #: ../lib/engine/components/opal/process/sip-endpoint.cpp:432
 msgid "Too many hops"
@@ -950,7 +958,7 @@ msgstr "SIP sürümü desteklenmiyor"
 
 #: ../lib/engine/components/opal/process/sip-endpoint.cpp:492
 msgid "Message too large"
-msgstr "Mesaj çok büyük"
+msgstr "İleti çok büyük"
 
 #: ../lib/engine/components/opal/process/sip-endpoint.cpp:496
 msgid "Busy everywhere"
@@ -1040,7 +1048,7 @@ msgstr ""
 
 #: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:135
 msgid "Welcome to Ekiga"
-msgstr "Ekiga'ya Hoşgeldiniz"
+msgstr "Ekiga'ya Hoş Geldiniz"
 
 #: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:148
 msgid ""
@@ -1055,12 +1063,12 @@ msgid ""
 "\n"
 "The following two pages allow you creating such accounts."
 msgstr ""
-"Ekiga kullanmak için genellikle bir SIP veya H323 hesabına ihtiyacınız "
+"Ekiga kullanmak için genellikle bir SIP veya H323 hesabına gereksiniminiz "
 "vardır.\n"
-"Bir çok servis bu tarz bir hesap açmanızı sağlayacaktır.\n"
+"Birçok servis bu tarz bir hesap açmanızı sağlayacaktır.\n"
 "\n"
 "SIP hesabı olan herhangi bir kişi tarafından aranabileceğiniz, ücretsiz "
-"ekiga.im hesabı açmanızı tavsiye ediyoruz.\n"
+"ekiga.im hesabı açmanızı öneriyoruz.\n"
 "\n"
 "Sabit hatları da aramak isterseniz, pahalı olmayan bir arama hesabı satın "
 "almanızı öneririz.\n"
@@ -1093,10 +1101,10 @@ msgid ""
 "You may skip this step if you use an alternative SIP service, or if you "
 "would prefer to specify the login details later."
 msgstr ""
-"Ekiga.im SIP adres ve parolası ücretsiz ekiga.net SIP servisindeki "
-"hesabınıza giriş yapmak için kullanılacaktır. Eğer henüz bir ekiga.net SIP "
-"adresiniz yoksa öncelikle aşağıda bir hesap oluşturabilirsiniz.  Bu diğer "
-"insanların sizi aramasını sağlayacak bir SIP adresi sağlayacaktır.\n"
+"Ekiga.im SIP adres ve parolası ücretsiz ekiga.im SIP servisindeki hesabınıza "
+"giriş yapmak için kullanılacaktır. Eğer henüz bir ekiga.im SIP adresiniz "
+"yoksa öncelikle aşağıda bir hesap oluşturabilirsiniz.  Bu diğer insanların "
+"sizi aramasını sağlayacak bir SIP adresi sağlayacaktır.\n"
 "\n"
 "Eğer alternatif bir SIP hesabı kullanıyorsanız veya giriş ayrıntılarını daha "
 "sonra belirtmek istiyorsanız bu adımı geçebilirsiniz."
@@ -1134,7 +1142,7 @@ msgstr ""
 "arama yapabilirsiniz. Bunu etkinleştirmek için iki şey yapmalısınız:\n"
 "- Öncelikle aşağıdaki URL'yi kullanarak bir hesap satın alın.\n"
 "- Daha sonra hesap numaranızı ve PIN kodunuzu girin.\n"
-"Hizmet sadece, hesabınız bu iletişim kutusu içindeki URL kullanılarak "
+"Hizmet yalnızca, hesabınız bu iletişim kutusu içindeki URL kullanılarak "
 "oluşturulduğunda çalışacaktır.\n"
 
 #: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:399
@@ -1160,7 +1168,7 @@ msgstr "Yapılandırma özeti:"
 #: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:516
 #: ../lib/engine/gui/gtk-frontend/book-view-gtk.cpp:650
 msgid "Full Name"
-msgstr "Tam İsim"
+msgstr "Tam Ad"
 
 #: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:530
 msgid "SIP URI"
@@ -1199,8 +1207,8 @@ msgstr ""
 "%s açılırken bir hata oluştu.\n"
 "\n"
 "Sökülüp takılabilir bir aygıt ise yeniden bağlamak yeterli olabilir. Değilse "
-"veya erişilebilir değilse, lütfen izinlerinizi kontrol edin ve uygun "
-"sürücünün yüklendiğinden emin olun."
+"veya erişilebilir değilse, lütfen izinlerinizi denetleyin ve uygun sürücünün "
+"yüklendiğinden emin olun."
 
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:559
 #, c-format
@@ -1239,7 +1247,7 @@ msgstr ""
 "Sürücünüz Ekiga'nın desteklediği renk biçimlerinden hiçbirini desteklemiyor "
 "gibi görünüyor.\n"
 " Lütfe hangi Paletin desteklendiğine karar vermek için çekirdek sürücü "
-"belgelerini kontrol edin."
+"belgelerini denetleyin."
 
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:571
 #, c-format
@@ -1279,9 +1287,9 @@ msgid ""
 msgstr ""
 "%s kayıt için açılamadı.\n"
 "\n"
-"Eğer tak çıkar aygıtıysa, tekrar bağlamak yeterli olabilir. Değilse, veya "
+"Eğer tak çıkar aygıtıysa, yeniden bağlamak yeterli olabilir. Değilse, veya "
 "hala çalışmıyorsa, lütfen ses kurulumunuzu, izinleri ve aygıtın meşgul olup "
-"olmadığını kontrol edin."
+"olmadığını denetleyin."
 
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:631
 #, c-format
@@ -1295,8 +1303,8 @@ msgstr ""
 "%s başarıyla açıldı fakat aygıttan veri okunması imkansız.\n"
 "\n"
 "Sökülüp takılabilir bir aygıtsa yeniden bağlamak yeterli olabilir. Eğer "
-"değilse veya hala erişilebilir değilse, lütfen ses yapılandırmanızı kontrol "
-"edin."
+"değilse veya hala erişilebilir değilse, lütfen ses yapılandırmanızı "
+"denetleyin."
 
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:636
 #, c-format
@@ -1316,7 +1324,7 @@ msgstr ""
 "\n"
 "Sökülüp takılabilir bir aygıt ise yeniden bağlamak yeterli olabilir. Değilse "
 "veya erişilebilir değilse, lütfen ses yapılandırmanızı, izinlerinizi ve "
-"aygıtın meşgul olup olmadığını kontrol edin."
+"aygıtın meşgul olup olmadığını denetleyin."
 
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:698
 #, c-format
@@ -1330,8 +1338,8 @@ msgstr ""
 "%s başarıyla açıldı fakat bu aygıta veri yazmak imkansız.\n"
 "\n"
 "Eğer sökülüp takılabilir bir aygıtsa yeniden bağlamak yeterli olabilir. "
-"Değilse veya hala erişilebilir değilse, lütfen ses yapılandırmanızı kontrol "
-"edin."
+"Değilse veya hala erişilebilir değilse, lütfen ses yapılandırmanızı "
+"denetleyin."
 
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:703
 #, c-format
@@ -1369,16 +1377,16 @@ msgstr "Arama Penceresi"
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:1140
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:1144
 msgid "N/A"
-msgstr ""
+msgstr "YOK"
 
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:1142
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:1146
 #, c-format
 msgid "%d ms"
-msgstr ""
+msgstr "%d ms"
 
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:1149
-#, fuzzy, c-format
+#, c-format
 #| msgid ""
 #| "<b><u>Reception:</u></b> %s %s\n"
 #| "Lost Packets: %d %%\n"
@@ -1406,15 +1414,15 @@ msgid ""
 "Bandwidth: %d kbits/s\n"
 "\n"
 msgstr ""
-"<b><u>Resepsiyon</u></b>%s %s\n"
-"Kayıp Paket: %d %%\n"
-"Titreşim: %d ms\n"
+"<b><u>Alım:</u></b>%s %s\n"
+"Kayıp Paket: %% %d\n"
+"Gecikme: %s\n"
 "Çerçeve oranı: %d fps\n"
 "Bant genişliği: %d kbits/s\n"
 "\n"
-"<b><u>Aktarım</u></b> %s %s\n"
-"Uzak Kayıp Paket: %d %%\n"
-"Uzak Titreşim: %d ms\n"
+"<b><u>Aktarım:</u></b> %s %s\n"
+"Uzak Kayıp Paket: %% %d\n"
+"Uzak Gecikme: %s\n"
 "Çerçeve oranı: %d fps\n"
 "Bant genişliği: %d kbits/s\n"
 "\n"
@@ -1425,7 +1433,7 @@ msgid ""
 "your audio driver."
 msgstr ""
 "Arama kalitesi oldukça kötü. Lütfen internet bağlantınızı veya ses "
-"sürücünüzü kontrol edin."
+"sürücünüzü denetleyin."
 
 #. FIXME:
 #. * All those actions should be call specific.
@@ -1452,13 +1460,12 @@ msgstr "Gelen aramayı beklet veya al"
 
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:1399
 msgid "Transfer the current call"
-msgstr "Mevcut çağrıyı aktar"
+msgstr "Geçerli çağrıyı aktar"
 
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:1412
-#, fuzzy
 #| msgid "Add caller/callee to the blacklist"
 msgid "Add remote party to the blacklist"
-msgstr "Arayanı/arama yapılanı kara listeye ekle"
+msgstr "Uzaktaki makineyi kara listeye ekle"
 
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:1426
 msgid "Change audio and video settings"
@@ -1467,11 +1474,11 @@ msgstr "Ses ve görüntü ayarlarını değiştir"
 #. Call Accept
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:1430
 msgid "_Answer"
-msgstr "_Cevapla"
+msgstr "_Yanıtla"
 
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:1439
 msgid "Answer the incoming call"
-msgstr "Gelen aramayı cevapla"
+msgstr "Gelen aramayı yanıtla"
 
 #: ../lib/engine/gui/gtk-frontend/call-window.cpp:1468
 msgid "Switch to fullscreen"
@@ -1527,7 +1534,7 @@ msgstr "Ekiga'nın belirtilen URI'yi aramasını sağlar"
 
 #: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:664
 msgid "Hangup the current call (if any)"
-msgstr "Mevcut çağrıyı kapat (varsa)"
+msgstr "Geçerli çağrıyı kapat (varsa)"
 
 #: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:780
 msgid "Unable to open help file."
@@ -1614,7 +1621,7 @@ msgstr "Uzaktaki sunucuya bağlanılamadı"
 #: ../lib/engine/gui/gtk-frontend/ekiga-window.cpp:398
 #, c-format
 msgid "Missed call from %s"
-msgstr "Cevapsız çağrı %s"
+msgstr "%s’den yanıtsız çağrı"
 
 #: ../lib/engine/gui/gtk-frontend/ekiga-window.cpp:434
 msgid "Error"
@@ -1646,16 +1653,16 @@ msgstr "Yeni sesli postaları için ses çal"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:508
 msgid "Play sound for new instant messages"
-msgstr "Yeni anında mesajlar için ses çal"
+msgstr "Yeni anında iletiler için ses çal"
 
 #. Display
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:548
 msgid "Show o_ffline contacts"
-msgstr "Çevrimdışı ba_ğlantıları göster"
+msgstr "Çevrim dışı ba_ğlantıları göster"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:550
 msgid "Show offline contacts in the roster"
-msgstr "Çevrimdışı bağlantıları listede göster"
+msgstr "Çevrim dışı bağlantıları listede göster"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:552
 msgid "Place windows displaying video _above other windows"
@@ -1716,7 +1723,7 @@ msgstr ""
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:576
 msgid "Forward calls to the given host if _no answer"
-msgstr "Cevap _verilmediğinde aramaları belirtilen makineye yönlendir"
+msgstr "_Yanıtlanmadığında aramaları belirtilen makineye yönlendir"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:578
 msgid ""
@@ -1759,17 +1766,17 @@ msgid ""
 "Automatically reject or forward incoming calls if no answer is given after "
 "the specified amount of time (in seconds)"
 msgstr ""
-"Belirlenen bir süre (saniye) sonunda eğer cevap yok ise, gelen aramaları "
+"Belirlenen bir süre (saniye) sonunda eğer yanıt yok ise, gelen aramaları "
 "kendiliğinden reddet veya yönlendir"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:591
 msgid "_Automatically answer incoming calls"
-msgstr "Gelen _aramaları otomatik olarak cevapla"
+msgstr "Gelen _aramaları kendiliğinden yanıtla"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:593
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:68
 msgid "If enabled, automatically answer incoming calls"
-msgstr "Eğer etkinse, gelen aramaları otomatik olarak cevapla"
+msgstr "Eğer etkinse, gelen aramaları kendiliğinden yanıtla"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:655
 msgid "A"
@@ -1854,8 +1861,9 @@ msgid ""
 "connection during calls. H.245 Tunneling was introduced in H.323v2."
 msgstr ""
 "Bu, H.245 Tünelleme kipini etkinleştirir. H.245 Tünelleme kipinde, H.245 "
-"iletileri H.225 kanalında kapsüllenir (port 1720). Bu, aramalar sırasında "
-"bir TCP bağlantısını saklar. H.245 Tünelleme H.323v2 içinde tanımlanmıştır."
+"iletileri H.225 kanalında kapsüllenir (bağlantı noktası 1720). Bu, aramalar "
+"sırasında bir TCP bağlantısını saklar. H.245 Tünelleme H.323v2 içinde "
+"tanımlanmıştır."
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:766
 msgid "Enable _early H.245"
@@ -2019,7 +2027,7 @@ msgstr "SECAM (Fransa)"
 
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:922
 msgid "Auto"
-msgstr "Otomatik"
+msgstr "Kendiliğinden"
 
 #. Translators: the full sentence is Keep a minimum video quality of X %
 #: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:949
@@ -2152,7 +2160,7 @@ msgstr "Sıralanmamış"
 #, c-format
 msgid "You have %d message"
 msgid_plural "You have %d messages"
-msgstr[0] "%d mesajınız var"
+msgstr[0] "%d iletiniz var"
 
 #: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:89
 msgid "Available"
@@ -2168,7 +2176,7 @@ msgstr "Meşgul"
 
 #: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:388
 msgid "Custom message..."
-msgstr "Özel Mesaj..."
+msgstr "Özel İleti..."
 
 #: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:433
 msgid "Clear"
@@ -2178,7 +2186,7 @@ msgstr "Temizle"
 #: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:521
 #: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:673
 msgid "Custom Message"
-msgstr "Özel Mesaj"
+msgstr "Özel İleti"
 
 #: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:524
 msgid "_Delete"
@@ -2190,7 +2198,7 @@ msgstr "_Kapat"
 
 #: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:537
 msgid "Delete custom messages:"
-msgstr "Özel mesajları sil:"
+msgstr "Özel iletileri sil:"
 
 #: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:676
 msgid "_OK"
@@ -2198,15 +2206,15 @@ msgstr "_Tamam"
 
 #: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:690
 msgid "Define a custom message:"
-msgstr "Özel bir mesaj tanımla:"
+msgstr "Özel bir ileti tanımla:"
 
 #: ../lib/engine/protocol/call-core.cpp:205
 msgid "Missed call from"
-msgstr "Cevapsız çağrı:"
+msgstr "Yanıtsız çağrı:"
 
 #: ../lib/engine/protocol/call-core.cpp:207
 msgid "Missed call"
-msgstr "Cevapsız çağrı"
+msgstr "Yanıtsız çağrı"
 
 #: ../lib/engine/protocol/known-codecs.h:39
 #: ../lib/engine/protocol/known-codecs.h:40
@@ -2388,11 +2396,13 @@ msgid "VP8"
 msgstr "VP8"
 
 #: ../lib/engine/videoinput/videoinput-core.cpp:377
-#| msgid "Video Input Device"
 msgid "New Video Input Device"
 msgstr "Yeni Video Girişi Aygıtı"
 
 #. whitespaces for a better alignment
+#. Translators: the following strings are letters that stand on mobile phone
+#. * keys.
+#.
 #: ../lib/gui/dialpad.c:53
 msgid "abc"
 msgstr "abc"
@@ -2458,16 +2468,14 @@ msgid "Video preview"
 msgstr "Video önizleme"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:15
-#, fuzzy
 #| msgid "Contact long status"
 msgid "Contact presence status"
-msgstr "Bağlantı uzun durumu"
+msgstr "Bağlantı varlık durumu"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:16
-#, fuzzy
 #| msgid "Contact Sources"
 msgid "Contact presence note"
-msgstr "Bağlantı Kaynakları"
+msgstr "Bağlantı varlık notu"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:17
 msgid "Alternative audio output device"
@@ -2491,26 +2499,26 @@ msgstr "Eğer seçiliyse, seçilen ses gelen çağrılarda çalınacak"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:23
 msgid "The new instant message sound"
-msgstr "Yeni anında mesaj sesi"
+msgstr "Yeni anında ileti sesi"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:24
 msgid ""
 "The sound that will be played when there is a new instant message, if enabled"
-msgstr "Etkinleştirilmişse, yeni bir anında mesaj varsa çalacak ses"
+msgstr "Etkinleştirilmişse, yeni bir anında ileti varsa çalacak ses"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:25
 msgid "Play sound on new message"
-msgstr "Yeni mesajda ses çal"
+msgstr "Yeni iletide ses çal"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:26
 msgid ""
 "The chosen sound will be played when a new instant message is received, if "
 "enabled"
-msgstr "Etkinleştirilmişse, yeni bir anında mesaj alındığında çalacak ses"
+msgstr "Etkinleştirilmişse, yeni bir anında ileti alındığında çalacak ses"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:27
 msgid "The new voice mail sound"
-msgstr "Yeni sesli mesaj sesi"
+msgstr "Yeni sesli ileti sesi"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:28
 msgid ""
@@ -2572,11 +2580,12 @@ msgstr ""
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:41
 msgid "Enable STUN network detection"
-msgstr "STUN ağ tespitini etkinleştir"
+msgstr "STUN ağ saptamasını etkinleştir"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:42
 msgid "Enable the automatic network setup resulting from the STUN test"
-msgstr "STUN testi sonucundaki otomatik ağ yapılandırmasını etkinleştir"
+msgstr ""
+"STUN sınaması sonucundaki kendiliğinden ağ yapılandırmasını etkinleştir"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:43
 msgid "Position on the screen of the call window"
@@ -2668,11 +2677,11 @@ msgstr ""
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:65
 msgid "No answer timeout"
-msgstr "Cevap alamama zaman aşımı"
+msgstr "Yanıt alamama zaman aşımı"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:67
 msgid "Automatic answer"
-msgstr "Otomatik cevap"
+msgstr "Kendiliğinden yanıt"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:69
 msgid "The Audio Codecs List"
@@ -2761,15 +2770,15 @@ msgstr "Giden RTP IP paketlerindeki Hizmet Türü (TOS) baytı"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:88
 msgid "Listen port"
-msgstr "Dinlenecek Port"
+msgstr "Dinlenecek bağlantı noktası"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:89
 msgid ""
 "The port to listen to for incoming connections. Ekiga needs to be restarted "
 "for the new value to take effect"
 msgstr ""
-"Gelen aramaların dinleneceği port. Yeni değerin etkili olabilmesi için "
-"Ekiga'nın yeniden başlatılması gerekir"
+"Gelen aramaların dinleneceği bağlantı noktası. Yeni değerin etkili "
+"olabilmesi için Ekiga'nın yeniden başlatılması gerekir"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:90
 msgid "Forward calls to host"
@@ -2789,13 +2798,15 @@ msgstr ""
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:94
 msgid "Connection keepalive interval"
-msgstr ""
+msgstr "Bağlantı canlı tutma aralığı"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:95
 msgid ""
 "Enter the number of seconds between keepalive messages sent by Ekiga to "
 "maintain the connection"
 msgstr ""
+"Bağlantıyı sürdürmek için Ekiga tarafından gönderilecek olan canlı tutma "
+"iletileri arasındaki saniye sayısı"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:96
 msgid "Instance ID"
@@ -2806,14 +2817,16 @@ msgid ""
 "This is a Uniform Resource Name (URN) that uniquely identifies this specific "
 "UA instance. It will be generated on the first run."
 msgstr ""
+"Bu, bu özel UA olayını eşsizce tanımlayan bir Tekbiçimli Kaynak Adı "
+"(URN)'dir. İlk çalıştırmada oluşturulacaktır."
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:98
 msgid ""
 "The port to listen to for incoming connections. Ekiga needs to be restarted "
 "for the new value to take effect."
 msgstr ""
-"Gelen aramaların dinleneceği port. Yeni değerin etkili olabilmesi için Ekiga "
-"yeniden başlatılmalıdır."
+"Gelen aramaların dinleneceği bağlantı noktası. Yeni değerin etkili "
+"olabilmesi için Ekiga yeniden başlatılmalıdır."
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:99
 msgid "Enable H.245 tunneling"
@@ -2865,7 +2878,7 @@ msgstr "DTMFs gönderimi için kip seçin"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:110
 msgid "TCP port range"
-msgstr "TCP port aralığı"
+msgstr "TCP bağlantı noktası aralığı"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:111
 msgid ""
@@ -2873,13 +2886,13 @@ msgid ""
 "port range has no effect if both participants to the conference are using "
 "H.245 Tunneling."
 msgstr ""
-"H.323 ve H.245 kanalı için Ekiga tarafından kullanılacak TCP portlarının "
-"aralığı. Konferanstaki katılımcıların tümü H.245 tünelleme kullanıyorsa bu "
-"port aralığının bir etkisi olmayacaktır."
+"H.323 ve H.245 kanalı için Ekiga tarafından kullanılacak TCP bağlantı "
+"noktalarının aralığı. Konferanstaki katılımcıların tümü H.245 tünelleme "
+"kullanıyorsa bu bağlantı noktası aralığının bir etkisi olmayacaktır."
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:112
 msgid "UDP port range"
-msgstr "UDP port dizisi"
+msgstr "UDP bağlantı noktası aralığı"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:113
 msgid ""
@@ -2888,8 +2901,8 @@ msgid ""
 "communication channels)."
 msgstr ""
 "SIP sinyalleşmesi ve bekcilere kayıt sırasında Ekiga tarafından kullanılacak "
-"UDP portlarının aralığı. RTP için de kullanılır (ses ve video iletişim "
-"kanalları)."
+"UDP bağlantı noktalarının aralığı. RTP için de kullanılır (ses ve video "
+"iletişim kanalları)."
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:114
 msgid "Always forward calls to the given host"
@@ -2918,7 +2931,7 @@ msgstr ""
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:118
 msgid "Forward calls to the given host if no answer"
-msgstr "Cevapsız aramaları belirtilen makineye yönlendir"
+msgstr "Yanıtsız aramaları belirtilen makineye yönlendir"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:119
 msgid ""
@@ -2930,15 +2943,15 @@ msgstr ""
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:120
 msgid "List of folded groups in the roster"
-msgstr "Listedeki katlanmış grupların listesi"
+msgstr "Listedeki katlanmış kümelerin listesi"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:121
 msgid "Show offline contacts"
-msgstr "Çevrimdışı bağlantıları göster"
+msgstr "Çevrim dışı bağlantıları göster"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:122
 msgid "If enabled, offline contacts will be shown in the roster"
-msgstr "Etkinleştirilirse çevrimdışı bağlantılar listede görünecektir"
+msgstr "Etkinleştirilirse çevrim dışı bağlantılar listede görünecektir"
 
 #: ../org.gnome.ekiga.gschema.xml.in.in.h:123
 msgid "LDAP servers"
@@ -3016,7 +3029,7 @@ msgstr "_Cep Telefonu"
 #: ../plugins/evolution/evolution-book.cpp:356
 #: ../plugins/evolution/evolution-contact.cpp:328
 msgid "_Pager"
-msgstr "_Çağrı Cihazı"
+msgstr "_Çağrı Aygıtı"
 
 #. Translators: This is Edit name of the contact
 #. * e.g. Editing Damien SANDRAS details
@@ -3024,7 +3037,7 @@ msgstr "_Çağrı Cihazı"
 #: ../plugins/evolution/evolution-contact.cpp:308
 #, c-format
 msgid "Editing %s details"
-msgstr "%s detayları düzenleniyor"
+msgstr "%s ayrıntıları düzenleniyor"
 
 #: ../plugins/evolution/evolution-contact.cpp:369
 msgid "Remove contact"
@@ -3037,7 +3050,7 @@ msgstr "%s'in adres defterinden kaldırılmasını istediğinize emin misiniz?"
 
 #: ../plugins/gstreamer/gst-audioinput.cpp:195
 msgid "Audio test"
-msgstr "Ses testi"
+msgstr "Ses sınaması"
 
 #: ../plugins/gstreamer/gst-audiooutput.cpp:225
 msgid "Silent"
@@ -3045,7 +3058,7 @@ msgstr "Sessiz"
 
 #: ../plugins/gstreamer/gst-videoinput.cpp:189
 msgid "Video test"
-msgstr "Video testi"
+msgstr "Video sınaması"
 
 #. Translators: "Screencast" means the video input device will be your screen -- the other end will see your desktop
 #: ../plugins/gstreamer/gst-videoinput.cpp:341
@@ -3266,7 +3279,7 @@ msgstr "Lütfen aşağıdaki alanları düzenleyin:"
 #: ../plugins/resource-list/rl-heap.cpp:528
 #: ../plugins/resource-list/rl-presentity.cpp:232
 msgid "Name:"
-msgstr "İsim:"
+msgstr "Ad:"
 
 #: ../plugins/loudmouth/loudmouth-account.cpp:341
 #: ../plugins/loudmouth/loudmouth-bank.cpp:119
@@ -3295,11 +3308,11 @@ msgstr "Sunucu, örn. jabber.org"
 
 #: ../plugins/loudmouth/loudmouth-account.cpp:353
 msgid "Port:"
-msgstr "Port:"
+msgstr "Bağlantı noktası:"
 
 #: ../plugins/loudmouth/loudmouth-account.cpp:353
 msgid "The transport protocol port, if different than the default"
-msgstr "Öntanımlıdan farklı ise, taşıma iletişim kuralı portu"
+msgstr "Öntanımlıdan farklı ise, taşıma iletişim kuralı bağlantı noktası"
 
 #: ../plugins/loudmouth/loudmouth-account.cpp:357
 #: ../plugins/loudmouth/loudmouth-bank.cpp:122
@@ -3349,11 +3362,11 @@ msgstr "_Parola:"
 #. FIXME: this is here until the feature is ready
 #: ../plugins/loudmouth/loudmouth-dialect.cpp:115
 msgid "Join a discussion group"
-msgstr "Bir tartışma grubuna katıl"
+msgstr "Bir tartışma kümesine katıl"
 
 #: ../plugins/loudmouth/loudmouth-dialect.cpp:126
 msgid "Open a group chat room"
-msgstr "Grup sohbet odası aç"
+msgstr "Küme sohbet odası aç"
 
 #: ../plugins/loudmouth/loudmouth-dialect.cpp:128
 msgid "Please provide a room name"
@@ -3428,7 +3441,7 @@ msgstr "Listenizde gösterildiği haliyle bağlantının adı"
 
 #: ../plugins/loudmouth/loudmouth-heap-roster.cpp:342
 msgid "Put contact in groups:"
-msgstr "Bağlantıyı gruplara yerleştir:"
+msgstr "Bağlantıyı kümelere yerleştir:"
 
 #: ../plugins/loudmouth/loudmouth-presentity.cpp:166
 msgid "Start chat"
@@ -3471,7 +3484,7 @@ msgstr ""
 #: ../plugins/resource-list/rl-heap.cpp:530
 #: ../plugins/resource-list/rl-presentity.cpp:235
 msgid "Choose groups:"
-msgstr "Grupları seçin:"
+msgstr "Kümeleri seçin:"
 
 #: ../plugins/resource-list/rl-cluster.cpp:96
 msgid "Add resource list"
